@@ -63,8 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Product not found');
         }
     }
-
-    // Add a new product
     addProductForm.addEventListener('submit', async (e) => {
         e.preventDefault();
 
